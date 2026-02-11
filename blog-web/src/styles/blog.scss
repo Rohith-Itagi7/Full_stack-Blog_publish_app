@@ -1,0 +1,39 @@
+// .blog-card {
+//   background: white;
+//   padding: 16px;
+//   margin-bottom: 12px;
+//   border-radius: 6px;
+// }
+.home {
+  max-width: 800px;
+  margin: auto;
+}
+
+.blog-card {
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+}
+.blog-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+
+  button {
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+}
+.delete-blog-btn {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+

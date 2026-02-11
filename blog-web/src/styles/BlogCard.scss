@@ -1,0 +1,36 @@
+.blog-card {
+  display: flex;
+  gap: 18px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 16px;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-3px);
+}
+
+.blog-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.blog-content h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.blog-content p {
+  color: #666;
+  margin: 6px 0;
+}
+
+.meta {
+  font-size: 13px;
+  color: #999;
+}

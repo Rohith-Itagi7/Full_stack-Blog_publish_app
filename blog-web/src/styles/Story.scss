@@ -1,0 +1,18 @@
+.our-story {
+    min-height: 100vh;
+    background-color:rgb(151, 114, 71);
+    color: #fff;
+    padding: 80px 40px;
+    font-family: serif;
+  
+    h1 {
+      font-size: 48px;   // > 35px ✔
+      margin-bottom: 30px;
+    }
+  
+    p {
+      font-size: 22px;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+  }

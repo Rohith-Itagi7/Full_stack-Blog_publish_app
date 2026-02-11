@@ -1,0 +1,34 @@
+.profile-page {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    input,
+    textarea {
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    textarea {
+      min-height: 80px;
+      resize: vertical;
+    }
+
+    button {
+      padding: 10px;
+      background: #222;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

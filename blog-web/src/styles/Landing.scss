@@ -1,0 +1,67 @@
+.landing {
+    background: #faf7f2;
+    min-height: 100vh;
+    font-family: serif;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+  
+    .logo {
+      font-weight: bold;
+    }
+  
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+  
+      a {
+        text-decoration: none;
+        color: black;
+      }
+  
+      .signin {
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+  
+      .get-started {
+        background: black;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  .hero {
+    padding: 80px 40px;
+  
+    h1 {
+      font-size: 80px;
+      margin-bottom: 20px;
+    }
+  
+    p {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+  
+    button {
+      background: black;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 25px;
+      border: none;
+      font-size: 25px;
+      cursor: pointer;
+    }
+  }
+  

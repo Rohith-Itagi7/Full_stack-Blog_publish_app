@@ -1,0 +1,243 @@
+// .blog-detail {
+//   max-width: 900px;
+//   margin: auto;
+//   padding: 24px;
+// }
+
+// // /* HEADER */
+// .blog-header {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: flex-start;
+// }
+
+// .author {
+//   color: #666;
+//   margin-top: 4px;
+// }
+
+// /* ACTION ICONS */
+// .top-actions {
+//   display: flex;
+//   gap: 10px;
+// }
+
+// .icon-btn {
+//   background: black;
+//   color: white;
+//   border: none;
+//   border-radius: 999px;
+//   padding: 8px 12px;
+//   cursor: pointer;
+//   font-size: 14px;
+//   display: flex;
+//   align-items: center;
+//   gap: 4px;
+// }
+
+// // .icon-btn:hover {
+// //   opacity: 0.85;
+// // }
+
+// // .icon-btn.active {
+// //   background: #222;
+// // }
+
+// // .icon-btn.danger {
+// //   background: #111;
+// // }
+
+// /* CONTENT */
+// .blog-content {
+//   margin-top: 24px;
+//   line-height: 1.7;
+// }
+
+// /* COMMENTS */
+// .comment-form textarea {
+//   width: 100%;
+//   min-height: 90px;
+//   padding: 10px;
+//   margin-bottom: 8px;
+// }
+
+// .black-btn {
+//   background: black;
+//   color: white;
+//   border: none;
+//   border-radius: 999px;
+//   padding: 8px 14px;
+//   cursor: pointer;
+// }
+
+// // .black-btn.small {
+// //   padding: 4px 10px;
+// //   font-size: 12px;
+// // }
+
+// .comments {
+//   margin-top: 20px;
+// }
+
+// .comment {
+//   border-bottom: 1px solid #eee;
+//   padding: 10px 0;
+// }
+// /* ACTION ICONS */
+// // .top-actions {
+// //   display: flex;
+// //   gap: 10px;
+// // }
+
+// // .icon-btn {
+// //   background: transparent;   /* ❌ remove black */
+// //   color: black;
+// //   border: none;
+// //   border-radius: 999px;
+// //   padding: 8px 10px;
+// //   cursor: pointer;
+// //   font-size: 15px;
+// //   display: flex;
+// //   align-items: center;
+// //   gap: 4px;
+// // }
+
+// /* subtle hover */
+// .icon-btn:hover {
+//   background: rgba(0, 0, 0, 0.05);
+// }
+
+// /* LIKE */
+// .icon-btn.like {
+//   color: black;
+// }
+
+// /* BOOKMARK */
+// .icon-btn.bookmark {
+//   color: black;
+// }
+
+// /* EDIT */
+// .icon-btn.edit {
+//   color: black;
+// }
+
+// /* DELETE */
+// .icon-btn.delete {
+//   color: red;                /* ✅ red delete icon */
+// }
+
+// /* active bookmark / like (optional) */
+// .icon-btn.active {
+//   color: black;
+// }
+.blog-detail {
+  max-width: 900px;
+  margin: auto;
+  padding: 24px;
+}
+
+/* HEADER */
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.author {
+  color: #666;
+  margin-top: 4px;
+}
+
+/* ===== TOP ACTION ICONS ===== */
+.top-actions {
+  display: flex;
+  gap: 12px;
+}
+
+/* BASE ICON BUTTON */
+.icon-btn {
+  background: transparent;        /* ❌ no box */
+  border: none;                   /* ❌ no border */
+  padding: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+}
+
+/* Hover subtle */
+.icon-btn:hover {
+  opacity: 0.75;
+}
+
+/* ❤️ LIKE */
+.icon-btn.like {
+  color: #222;
+}
+
+/* ❤️ liked (optional if you already toggle class) */
+.icon-btn.like.active {
+  color: #e63946;
+}
+
+/* 🔖 BOOKMARK */
+.icon-btn.bookmark {
+  color: #222;
+}
+
+/* 🔖 bookmarked (THIS IS THE RED STATE YOU WANT) */
+.icon-btn.bookmark.active {
+  color: #e63946;
+}
+
+/* ✏️ EDIT */
+.icon-btn.edit {
+  color: #222;
+}
+
+/* 🗑 DELETE */
+.icon-btn.delete {
+  color: #e63946;
+}
+
+/* ===== BLOG CONTENT ===== */
+.blog-content {
+  margin-top: 24px;
+  line-height: 1.7;
+}
+
+/* ===== COMMENTS ===== */
+.comment-form textarea {
+  width: 100%;
+  min-height: 90px;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+/* Post / Delete Comment buttons stay black */
+.black-btn {
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.black-btn.small {
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comment {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
