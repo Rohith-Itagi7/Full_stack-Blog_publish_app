@@ -3,7 +3,7 @@
 
 A cross-platform Blog Publishing System powered by a single Node.js REST API, seamlessly integrated with:
 
-• 🌐 React Web Application
+• 🌐 React Web Application \n
 • 📱 Flutter Mobile Application
 
 Both clients:
@@ -182,4 +182,5 @@ Update API base URL inside Flutter project if needed.
 ✅ Working Web Application video included - https://youtu.be/w4G6GaVYqhU?si=6_AnwVUP0l062AtJ
 
 ✅ Working Flutter Mobile Application video included - https://youtu.be/wQin3YQP5Do?si=usi0e-bm7vxSXov2
+
 
